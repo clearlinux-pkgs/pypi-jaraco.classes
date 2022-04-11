@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.classes
 Version  : 3.2.1
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/7b/de/28a640c17a80f5e0fab5c494679e2e66b36d7fd20622e27718bea8be34b8/jaraco.classes-3.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7b/de/28a640c17a80f5e0fab5c494679e2e66b36d7fd20622e27718bea8be34b8/jaraco.classes-3.2.1.tar.gz
 Summary  : Utility functions for Python class constructs
@@ -14,18 +14,15 @@ Requires: pypi-jaraco.classes-license = %{version}-%{release}
 Requires: pypi-jaraco.classes-python = %{version}-%{release}
 Requires: pypi-jaraco.classes-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: jaraco.classes
-Provides: jaraco.classes-python
-Provides: jaraco.classes-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
 BuildRequires : pypi(more_itertools)
+BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 .. image:: https://img.shields.io/pypi/v/jaraco.classes.svg
@@ -68,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641447201
+export SOURCE_DATE_EPOCH=1649696608
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
