@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jaraco.classes
-URL = https://files.pythonhosted.org/packages/8b/de/d0a466824ce8b53c474bb29344e6d6113023eb2c3793d1c58c0908588bfa/jaraco.classes-3.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/a5/8a/ed955184b2ef9c1eef3aa800557051c7354e5f40a9efc9a46e38c3e6d237/jaraco.classes-3.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
